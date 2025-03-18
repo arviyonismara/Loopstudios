@@ -7,6 +7,9 @@ export default {
         sans: ["Josefin Sans", "sans-serif"],
         alata: ["alata"],
       },
+      letterSpacing: {
+        widest: ".3em",
+      },
     },
     screens: {
       sm: "480px",

@@ -64,6 +64,275 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section id="creations">
+        {/* Creations Container */}
+        <div className="container max-w-6xl mx-auto my-32 px-6 text-gray-900 md:px-0">
+          {/* Creations Header */}
+          <div className="flex justify-center mb-20 md:justify-between">
+            <h2 className="text-4xl text-center uppercase md:text-left md:text-5xl">
+              Our Creations
+            </h2>
+            <button className="hidden btn md:block">See All</button>
+          </div>
+        </div>
+
+        {/* Items Container */}
+        <div className="item-container">
+          {/* Item 1 */}
+          <div className="group item">
+            {/* Desktop Image */}
+            <img
+              src="images/desktop/image-deep-earth.jpg"
+              alt=""
+              className="hidden w-full duration-200 md:block group-hover:scale-110"
+            />
+            {/* Mobile Image */}
+            <img
+              src="images/mobile/image-deep-earth.jpg"
+              alt=""
+              className="w-full md:hidden"
+            />
+            {/* Item Gradient */}
+            <div className="item-gradient"></div>
+            {/* Item Text */}
+            <h5>Deep Earth</h5>
+          </div>
+          {/* Item 2 */}
+          <div className="group item">
+            {/* Desktop Image */}
+            <img
+              src="images/desktop/image-night-arcade.jpg"
+              alt=""
+              className="hidden w-full duration-200 md:block group-hover:scale-110"
+            />
+            {/* Mobile Image */}
+            <img
+              src="images/mobile/image-night-arcade.jpg"
+              alt=""
+              className="w-full md:hidden"
+            />
+            {/* Item Gradient */}
+            <div className="item-gradient"></div>
+            {/* Item Text */}
+            <h5>Night Arcade</h5>
+          </div>
+          {/* Item 3 */}
+          <div className="group item">
+            {/* Desktop Image */}
+            <img
+              src="images/desktop/image-soccer-team.jpg"
+              alt=""
+              className="hidden w-full duration-200 md:block group-hover:scale-110"
+            />
+            {/* Mobile Image */}
+            <img
+              src="images/mobile/image-soccer-team.jpg"
+              alt=""
+              className="w-full md:hidden"
+            />
+            {/* Item Gradient */}
+            <div className="item-gradient"></div>
+            {/* Item Text */}
+            <h5>Soccer Team</h5>
+          </div>
+          {/* Item 4 */}
+          <div className="group item">
+            {/* Desktop Image */}
+            <img
+              src="images/desktop/image-grid.jpg"
+              alt=""
+              className="hidden w-full duration-200 md:block group-hover:scale-110"
+            />
+            {/* Mobile Image */}
+            <img
+              src="images/mobile/image-grid.jpg"
+              alt=""
+              className="w-full md:hidden"
+            />
+            {/* Item Gradient */}
+            <div className="item-gradient"></div>
+            {/* Item Text */}
+            <h5>The Grid</h5>
+          </div>
+        </div>
+
+        {/* Items Container 2*/}
+        <div className="item-container mt-10">
+          {/* Item 1 */}
+          <div className="group item">
+            {/* Desktop Image */}
+            <img
+              src="images/desktop/image-from-above.jpg"
+              alt=""
+              className="hidden w-full duration-200 md:block group-hover:scale-110"
+            />
+            {/* Mobile Image */}
+            <img
+              src="images/mobile/image-from-above.jpg"
+              alt=""
+              className="w-full md:hidden"
+            />
+            {/* Item Gradient */}
+            <div className="item-gradient"></div>
+            {/* Item Text */}
+            <h5>From Above</h5>
+          </div>
+          {/* Item 2 */}
+          <div className="group item">
+            {/* Desktop Image */}
+            <img
+              src="images/desktop/image-pocket-borealis.jpg"
+              alt=""
+              className="hidden w-full duration-200 md:block group-hover:scale-110"
+            />
+            {/* Mobile Image */}
+            <img
+              src="images/mobile/image-pocket-borealis.jpg"
+              alt=""
+              className="w-full md:hidden"
+            />
+            {/* Item Gradient */}
+            <div className="item-gradient"></div>
+            {/* Item Text */}
+            <h5>Pocket Borealis</h5>
+          </div>
+          {/* Item 3 */}
+          <div className="group item">
+            {/* Desktop Image */}
+            <img
+              src="images/desktop/image-curiosity.jpg"
+              alt=""
+              className="hidden w-full duration-200 md:block group-hover:scale-110"
+            />
+            {/* Mobile Image */}
+            <img
+              src="images/mobile/image-curiosity.jpg"
+              alt=""
+              className="w-full md:hidden"
+            />
+            {/* Item Gradient */}
+            <div className="item-gradient"></div>
+            {/* Item Text */}
+            <h5>Curiosity</h5>
+          </div>
+          {/* Item 4 */}
+          <div className="group item">
+            {/* Desktop Image */}
+            <img
+              src="images/desktop/image-fisheye.jpg"
+              alt=""
+              className="hidden w-full duration-200 md:block group-hover:scale-110"
+            />
+            {/* Mobile Image */}
+            <img
+              src="images/mobile/image-fisheye.jpg"
+              alt=""
+              className="w-full md:hidden"
+            />
+            {/* Item Gradient */}
+            <div className="item-gradient"></div>
+            {/* Item Text */}
+            <h5>Fisheye</h5>
+          </div>
+
+          {/* Button Bottom Container */}
+          <div className="flex justify-center mt-10 md:hidden">
+            <button className="btn w-full md:hidden">See All</button>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-black">
+        {/* Container */}
+        <div className="container max-w-6xl py-10 mx-auto">
+          {/* footer flex container */}
+          <div className="flex flex-col items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start">
+            {/* Menu & Logo Container */}
+            <div className="flex flex-col items-center space-y-8 md:items-start md:space-y-4">
+              {/* Logo */}
+              <div className="h-8">
+                <img src="images/logo.svg" alt="" className="md:ml-3" />
+              </div>
+              {/* Menu Container*/}
+              <div className="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
+                {/* Item 1 */}
+                <div className="h-10 group">
+                  <a href="#">About</a>
+                  <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                </div>
+                {/* Item 2 */}
+                <div className="h-10 group">
+                  <a href="#">Careers</a>
+                  <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                </div>
+                {/* Item 3 */}
+                <div className="h-10 group">
+                  <a href="#">Events</a>
+                  <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                </div>
+                {/* Item 4 */}
+                <div className="h-10 group">
+                  <a href="#">Products</a>
+                  <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                </div>
+                {/* Item 5 */}
+                <div className="h-10 group">
+                  <a href="#">Supports</a>
+                  <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                </div>
+              </div>
+            </div>
+            {/* Social & Copy Container */}
+            <div className="flex flex-col items-start justify-between space-y-4 text-gray-500">
+              {/* Icons Container */}
+              <div className="flex items-center justify-center space-x-4 mx-auto md:justify-end md:mx-0">
+                {/* Icon 1 */}
+                <div className="h-8 group">
+                  <a href="#">
+                    <img
+                      src="images/icon-facebook.svg"
+                      alt=""
+                      className="h-6"
+                    />
+                  </a>
+                </div>
+                {/* Icon 2 */}
+                <div className="h-8 group">
+                  <a href="#">
+                    <img src="images/icon-twitter.svg" alt="" className="h-6" />
+                  </a>
+                </div>
+                {/* Icon 3 */}
+                <div className="h-8 group">
+                  <a href="#">
+                    <img
+                      src="images/icon-pinterest.svg"
+                      alt=""
+                      className="h-6"
+                    />
+                  </a>
+                </div>
+                {/* Icon 4 */}
+                <div className="h-8 group">
+                  <a href="#">
+                    <img
+                      src="images/icon-instagram.svg"
+                      alt=""
+                      className="h-6"
+                    />
+                  </a>
+                </div>
+              </div>
+              {/* Copy */}
+              <div className="font-bold">
+                &copy; 2025 Loopstudios. All Rights Reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
